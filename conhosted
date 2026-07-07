@@ -59,8 +59,8 @@ uicortext1.CornerRadius = UDim.new(0, 8)
 
 local labellt = Instance.new("TextLabel")
 labellt.Parent = frament
-labellt.AnchorPoint = Vector2.new(0.018, 0.171)
-labellt.Position = UDim2.new(0.054, 0, 0.787, 0)
+labellt.AnchorPoint = Vector2.new(0.286, 0.4)
+labellt.Position = UDim2.new(0.392, 0, 0.474, 0)
 labellt.Size = UDim2.new(0.5, 0, 0.25, 0)
 labellt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 labellt.BorderColor3 = Color3.fromRGB(0,0,0)
