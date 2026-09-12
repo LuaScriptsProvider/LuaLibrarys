@@ -95,7 +95,7 @@ for _, text in ipairs({
 	"Setup..."
 	}) do
 	status.Text = text
-	task.wait(1.25)
+	task.wait(0.30)
 end
 
 status.Text = "Loaded! NektoHub running in 2-3 seconds"
