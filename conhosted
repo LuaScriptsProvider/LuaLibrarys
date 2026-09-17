@@ -19,7 +19,7 @@ if not isfile("NektoLib/name/lib.txt") then
 	writefile("NektoLib/name/lib.txt", "Conhosted")
 end
 
-warn("Before script starts : If script dont loads after 10-20 seconds - send this log to support in discord!")
+warn("Before script starts : If script dont loads after conhosted library - send this log to support in discord!")
 wait(1.5)
 
 print(lib_name_f9 .. " Loading library...")
