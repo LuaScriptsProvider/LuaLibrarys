@@ -2,9 +2,10 @@ local lib_name = "NektoExp"
 local lib_main_name = "Conhosted"
 local lib_main_name_f9 = "[Conhosted]"
 local lib_name_f9 = "[NektoExp]"
-local lib_version = "1.0.4"
+local lib_version = "1.0.5"
 local lib_status = "Release"
 local frametech = "eblanoid"
+local version_of_script = "Default"
 
 if not isfolder("NektoLib") then
 	makefolder("NektoLib")
@@ -58,7 +59,7 @@ title.Size = UDim2.fromScale(0.9, 0.2)
 title.BackgroundTransparency = 1
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.Font = Enum.Font.SourceSans
-title.Text = lib_main_name .. " v" .. lib_version
+title.Text = lib_main_name .. " v" .. lib_version .. " : " .. "Selected NektoHub version:" .. version_of_script
 title.TextScaled = true
 title.TextXAlignment = Enum.TextXAlignment.Left
 
